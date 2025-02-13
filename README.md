@@ -1,6 +1,6 @@
 # deepfakes_faceswap
 
-### Important information for **Patreon** and **PayPal** supporters. Please see this forum post: https://forum.faceswap.dev/viewtopic.php?f=14&t=3120
+### Important information for **Patreon** and **PayPal** supporters. 
 
 <p align="center">
   <a href="https://faceswap.dev"><img src="https://i.imgur.com/zHvjHnb.png"></img></a>
@@ -11,10 +11,6 @@
 </p>
 
 <p align="center">
-<a href="https://www.patreon.com/bePatron?u=23238350"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png"></img></a>
-&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://discord.gg/FC54sYg"><img src="https://i.imgur.com/gIpztkv.png"></img></a></p>
-
-<p align="center">
   <a href="https://www.dailymotion.com/video/x810mot"><img src="https://user-images.githubusercontent.com/36920800/178301720-b69841bb-a1ca-4c20-91db-a2a10f5692ca.png"></img></a>
 <br />Emma Stone/Scarlett Johansson FaceSwap using the Phaze-A model
 </p>
@@ -23,38 +19,6 @@
   <a href="https://www.youtube.com/watch?v=r1jng79a5xc"><img src="https://img.youtube.com/vi/r1jng79a5xc/0.jpg"></img></a>
 <br />Jennifer Lawrence/Steve Buscemi FaceSwap using the Villain model
 </p>
-
-
-![Build Status](https://github.com/deepfakes/faceswap/actions/workflows/pytest.yml/badge.svg) [![Documentation Status](https://readthedocs.org/projects/faceswap/badge/?version=latest)](https://faceswap.readthedocs.io/en/latest/?badge=latest)
-
-Make sure you check out [INSTALL.md](INSTALL.md) before getting started.
-
-- [deepfakes\_faceswap](#deepfakes_faceswap)
-    - [Important information for **Patreon** and **PayPal** supporters. Please see this forum post: https://forum.faceswap.dev/viewtopic.php?f=14\&t=3120](#important-information-for-patreon-and-paypal-supporters-please-see-this-forum-post-httpsforumfaceswapdevviewtopicphpf14t3120)
-- [Manifesto](#manifesto)
-  - [FaceSwap has ethical uses.](#faceswap-has-ethical-uses)
-- [How To setup and run the project](#how-to-setup-and-run-the-project)
-- [Overview](#overview)
-  - [Extract](#extract)
-  - [Train](#train)
-  - [Convert](#convert)
-  - [GUI](#gui)
-- [General notes:](#general-notes)
-- [Help I need support!](#help-i-need-support)
-  - [Discord Server](#discord-server)
-  - [FaceSwap Forum](#faceswap-forum)
-- [Donate](#donate)
-  - [Patreon](#patreon)
-  - [One time Donations](#one-time-donations)
-    - [@torzdf](#torzdf)
-    - [@andenixa](#andenixa)
-- [How to contribute](#how-to-contribute)
-  - [For people interested in the generative models](#for-people-interested-in-the-generative-models)
-  - [For devs](#for-devs)
-  - [For non-dev advanced users](#for-non-dev-advanced-users)
-  - [For end-users](#for-end-users)
-- [About machine learning](#about-machine-learning)
-  - [How does a computer know how to recognize/shape faces? How does machine learning work? What is a neural network?](#how-does-a-computer-know-how-to-recognizeshape-faces-how-does-machine-learning-work-what-is-a-neural-network)
 
 # Manifesto
 
@@ -111,34 +75,6 @@ NB: there is a conversion tool for video. This can be accessed by running `pytho
 
 Reusing existing models will train much faster than starting from nothing.
 If there is not enough training data, start with someone who looks similar, then switch the data.
-
-# Help I need support!
-## Discord Server
-Your best bet is to join the [FaceSwap Discord server](https://discord.gg/FC54sYg) where there are plenty of users willing to help. Please note that, like this repo, this is a SFW Server!
-
-## FaceSwap Forum
-Alternatively, you can post questions in the [FaceSwap Forum](https://faceswap.dev/forum). Please do not post general support questions in this repo as they are liable to be deleted without response.
-
-# Donate
-The developers work tirelessly to improve and develop FaceSwap. Many hours have been put in to provide the software as it is today, but this is an extremely time-consuming process with no financial reward. If you enjoy using the software, please consider donating to the devs, so they can spend more time implementing improvements.
-
-## Patreon
-The best way to support us is through our Patreon page:
-
-[![become-a-patron](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/bePatron?u=23238350)
-
-## One time Donations
-Alternatively you can give a one off donation to any of our Devs:
-### @torzdf
- There is very little FaceSwap code that hasn't been touched by torzdf. He is responsible for implementing the GUI, FAN aligner, MTCNN detector and porting the Villain, DFL-H128 and DFaker models to FaceSwap, as well as significantly improving many areas of the code.
-
-**Bitcoin:** bc1qpm22suz59ylzk0j7qk5e4c7cnkjmve2rmtrnc6
-
-**Ethereum:** 0xd3e954dC241B87C4E8E1A801ada485DC1d530F01
-
-**Monero:** 45dLrtQZ2pkHizBpt3P3yyJKkhcFHnhfNYPMSnz3yVEbdWm3Hj6Kr5TgmGAn3Far8LVaQf1th2n3DJVTRkfeB5ZkHxWozSX
-
-**Paypal:** [![torzdf](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JZ8PP3YE9J62L)
 
 ### @andenixa
 Creator of the Unbalanced and OHR models, as well as expanding various capabilities within the training process. Andenixa is currently working on new models and will take requests for donations.
